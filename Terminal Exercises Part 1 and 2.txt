@@ -1,0 +1,36 @@
+Part 1
+
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cd ..
+cp -r first second
+rm -r second
+
+
+Part 2
+
+1. "Man" - displays the manual page for a command. To navigate "man rm", use the arrow keys to scroll or use the 'b' key to move up and the spacebar to move down. Use the 'q' key to leave the page.
+
+2. '-l' flag displays files in a list format while also providing detailed info about each file. '-a' flag displays all files (hidden included).
+
+3. Use 'Alt + left or right arrow' to jump between words.
+
+4. Use 'Ctrl + E' to jump to end of line.
+
+5. Use 'Ctrl + A' to jump to beginning of line.
+
+6. Use 'Ctrl + W' to delete a word quickly.
+
+7. A terminal is a text-based program that allows users to interact with the computer while the shell is what reads and executes the command lines inside the terminal. (terminal = conduit for shell)
+
+8. Absolute path - starts at the root directory and shows the exact path of a file/folder
+
+9. Relative path - starts at the current directory rather than the root
+
+10. Flag - parameter used on an existing command that changes how the line is read (EX. -l, -f, -r).
+
+11. '-r' flag removes directories and goes through everything recursively. '-f' flag forcibly removes files.
